@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+    
+    
+    body{
+     color: white;
+     background-color:white;
+    }
+
+
+     #home{
+        background: url('../img/man-wearing-blue-suit-2897883.jpg') no-repeat center top;
+        background-size: cover;
+         min-height: 500px;
+         background-attachment: fixed;
+        
+       }
+       .image{
+          background: rgba(0,0,0,0.5);
+          min-height: 500px;
+         }  
+
+         .home-inner{
+            padding-top: 100px;
+            padding-bottom: 50px;
+    
+           }
+           .pc{
+               background-color: #e056fd;
+           }
+           #Prices{
+            background: url('../img/determined-smiling-businessman-with-laptop-on-street-3771089.jpg') no-repeat center top;
+            background-size: cover;
+             min-height: 500px;
+             background-attachment: fixed;
+            
+           }
+           .img{
+              background: rgba(0,0,0,0.5);
+              min-height: 500px;
+             }  
+    
+             .hinner{
+                padding-top: 100px;
+                padding-bottom: 50px;
+        
+               }
+               .map-container {
+                overflow: hidden;
+                padding-bottom: 56.25%;
+                position: relative;
+                height: 100px;
+            }
+    
+            .map-container iframe {
+                left: 0;
+                top: 50px;
+                height: 65%;
+                width: 100%;
+                position: absolute;
+            }
+            .bg-dark {
+                background: transparent !important;
+                transition: .5s ease-out;
+            }
+    
+            .bg-dark.scrolled {
+                background: rgb(26, 25, 25) !important;
+            }
+
+            .p5{
+                color:black !important;
+                
+            }
